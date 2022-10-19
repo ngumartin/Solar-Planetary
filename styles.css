@@ -5,20 +5,105 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: rgb(33, 33, 33);
+
 }
 
 .planets-container {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    background-color: yellow;
     transform: scaleX(5)
+}
+
+.sun {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 251, 0);
+    box-shadow: 0 0 60px rgb(253, 203, 163), 0 0 98px rgb(184, 160, 26);
+    transform: scaleX(0.2);
 }
 
 .planet {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: red;
     transform: scaleX(0.2);
+}
+
+#first-planet {
+    background-color: orange;
+}
+
+#second-planet {
+    background-color: yellowgreen;
+}
+
+#third-planet {
+    background-color: blue;
+}
+
+.route {
+    width: 100%;
+    height: 100%;
+    animation: rotate 12s infinite linear;
+    position: absolute;
+}
+
+.planet-container {
+    width: 60px;
+    height: 60px;
+    animation: correct 12s infinite linear;
+    position: absolute;
+}
+
+#second-planet-container {
+    left: 85px;
+}
+
+#third-planet-container {
+    left: 42.5px;
+    top: 100px;
+}
+
+.planet-index {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#first-planet-index {
+    animation: hideFirstPlanet 12s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes correct {
+    0% {
+        transform: rotateZ(360deg)
+    }
+    100% {
+        transform: rotateZ(0deg)
+    }
+}
+
+@keyframes hideFirstPlanet {
+    0% {
+        z-index: 999;
+    }
+    25% {
+        z-index: -999;
+    }
+    100% {
+        z-index: 999;
+    }
 }
