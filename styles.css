@@ -107,17 +107,12 @@ body {
 @keyframes hideFirstPlanet {
     0% {
         z-index: 999;
-        transform: scale(0.9);
     }
     15% {
         z-index: -999;
     }
-    75% {
-        transform: scale(2.1);
-    }
     100% {
         z-index: 999;
-        transform: scale(0.9);
     }
 }
 
