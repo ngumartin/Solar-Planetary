@@ -107,35 +107,56 @@ body {
 @keyframes hideFirstPlanet {
     0% {
         z-index: 999;
+        transform: scale(0.9)
     }
-    15% {
+    20% {
         z-index: -999;
+        transform: scale(0.8)
+    }
+    70% {
+        transform: scale(1.1)
     }
     100% {
         z-index: 999;
+        transform: scale(0.9)
     }
 }
 
 @keyframes hideSecondPlanet {
     0% {
         z-index: -999;
+        transform: scale(0.9)
+    }
+    45% {
+        transform: scale(1.1)
     }
     75% {
         z-index: 999;
+        transform: scale(0.9)
+    }
+    85% {
+        transform: scale(0.8)
     }
     100% {
         z-index: -999;
+        transform: scale(0.9)
     }
 }
 
 @keyframes hideThirdPlanet {
     0% {
         z-index: 999;
+        transform: scale(1.1)
     }
     50% {
         z-index: -999;
+        transform: scale(0.8)
+    }
+    70% {
+        transform: scale(0.9)
     }
     100% {
         z-index: 999;
+        transform: scale(1.1)
     }
 }
