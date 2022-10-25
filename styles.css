@@ -5,8 +5,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(33, 33, 33);
+}
 
+.background-image {
+    background-image: url('https://wallpapercave.com/dwp1x/wp3493593.jpg');
+    background-attachment: fixed;
+    background-position:center;
+    background-size: auto;
 }
 
 .planets-container {
