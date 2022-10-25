@@ -14,6 +14,16 @@ body {
     background-size: auto;
 }
 
+#ufo {
+    background-image: url('https://media.istockphoto.com/vectors/unidentified-flying-object-futuristic-ufo-on-a-transparent-background-vector-id1252261637?k=20&m=1252261637&s=170667a&w=0&h=mBYm96eRcxqXWlsYOKQTVLRu5Anb-pEXDQw7--l1sBQ=');
+    width: 30px;
+    height: 30px; 
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 870px;
+}
+
 .planets-container {
     width: 150px;
     height: 150px;
