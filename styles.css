@@ -143,23 +143,23 @@ body {
 }
 
 @keyframes secondPlanetRender {
-    0% { background: linear-gradient( 90deg, rgb(143, 143, 143) 50%, rgb(91, 91, 91) 50%);}
-    40% { background: linear-gradient( 90deg, rgb(143, 143, 143) 50%, rgb(91, 91, 91) 50%);}
-    40.1% { background: linear-gradient( -90deg, rgb(143, 143, 143) 50%, rgb(91, 91, 91) 50%);}
-    90% { background: linear-gradient( -90deg, rgb(143, 143, 143) 50%, rgb(91, 91, 91) 50%);}
-    90.1% { background: linear-gradient( 90deg, rgb(143, 143, 143) 50%, rgb(91, 91, 91) 50%);}
-    100% { background: linear-gradient( 90deg, rgb(143, 143, 143) 50%, rgb(91, 91, 91) 50%);}
+    0% { background: linear-gradient( 90deg, rgb(49, 184, 42) 50%, rgb(28, 106, 23) 50%);}
+    40% { background: linear-gradient( 90deg, rgb(49, 184, 42) 50%, rgb(28, 106, 23) 50%);}
+    40.1% { background: linear-gradient( -90deg, rgb(49, 184, 42) 50%, rgb(28, 106, 23) 50%);}
+    90% { background: linear-gradient( -90deg, rgb(49, 184, 42) 50%, rgb(28, 106, 23) 50%);}
+    90.1% { background: linear-gradient( 90deg, rgb(49, 184, 42) 50%, rgb(28, 106, 23) 50%);}
+    100% { background: linear-gradient( 90deg, rgb(49, 184, 42) 50%, rgb(28, 106, 23) 50%);}
 }
 
 @keyframes secondPlanetRenderRotator {
-    0% { transform: scaleX(0.5); background-color: rgb(143, 143, 143);}
-    15% { transform: scaleX(0); background-color: rgb(143, 143, 143);}
-    15.1% { transform: scaleX(0); background-color: rgb(91, 91, 91);} 
-    40% { transform: scaleX(1); background-color: rgb(91, 91, 91);}
-    65% { transform: scaleX(0); background-color: rgb(91, 91, 91);}
-    65.1% { transform: scaleX(0); background-color: rgb(143, 143, 143);}   
-    90% { transform: scaleX(1); background-color: rgb(143, 143, 143);}
-    100% { transform: scaleX(0.5); background-color: rgb(143, 143, 143);}
+    0% { transform: scaleX(0.5); background-color: rgb(49, 184, 42);}
+    15% { transform: scaleX(0); background-color: rgb(49, 184, 42);}
+    15.1% { transform: scaleX(0); background-color: rgb(28, 106, 23);} 
+    40% { transform: scaleX(1); background-color: rgb(28, 106, 23);}
+    65% { transform: scaleX(0); background-color: rgb(28, 106, 23);}
+    65.1% { transform: scaleX(0); background-color: rgb(49, 184, 42);}   
+    90% { transform: scaleX(1); background-color: rgb(49, 184, 42);}
+    100% { transform: scaleX(0.5); background-color: rgb(49, 184, 42);}
 }
 
 @keyframes thirdPlanetRender {
